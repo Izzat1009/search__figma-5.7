@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btn__seemore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn__seemore:hover{
+    color: #ddd;
+    background-color: #000;
+    transform: scale(1.06);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav__logo img {
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav__collection {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__items a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #eee;
+}
+
+.hero__content {
+    max-width: 50%;
+}
+
+.hero__content h1 {
+    font-size: 36px;
+    color: #222;
+}
+
+.hero__content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero__image img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-style: normal;
+    font-size: 14px;
+    width: 150px;
+
+}
+.wrapper{
+    max-width: 1442px;
+    margin: 0 auto;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 19px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.loading{
+    max-width: 1442px;
+    display: grid;
+    background: #fff;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 50px;
+    grid-gap: 12px;
+}
+.lds-ellipsis{
+    gap: 20px 20px;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 10px;
+}
+.loading__image{
+    width: 100%;
+    height: 270px;
+}
+.loading__title{
+    width: 80%;
+    height: 30px;
+    margin-top: 12px;
+}
+.loading__title:last-child{
+    width: 60%;
+}
+.to-left{
+    background: linear-gradient(90deg, #ddd #aaa #ddd);
+    background-size: 200%;
+    animation: toLeft 1s linear  infinite;
+}
+@keyframes tolLeft {
+    to{
+        background-position: 200%;
+    }
+    
+}
+.card{
+    border: 2px solid #ddd;
+    padding: 12px;
+    border-radius: 5px;
+    background: #fff;
+    width: 302px;
+    margin: 0 auto  ;
+    
+}
+.card img{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+}

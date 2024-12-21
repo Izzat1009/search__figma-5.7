@@ -1,0 +1,73 @@
+.testimonials{
+    padding: 100px 0;
+    background: #56B2801A;
+    &__title{
+        font-size: 40px;
+        font-weight: 500;
+        font-family: Poppins;
+        color: #0B254B;
+        line-height: 57.6px;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #0B254B;
+        letter-spacing: -0.9px;
+    }
+    &__subtitle{
+        font-size: 18px;
+        line-height: 25.6px;
+        color: #1D252C;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 40px;
+        letter-spacing: 0.1px;
+        color: #5E6E89;
+    }
+    &__list{
+        display: flex;
+        gap: 31px;
+    }
+    &__item{
+        width: 350px;
+        height: 295px;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: all 0.3s ease;
+
+
+        &:hover{
+            transform: translate(-5px, -5px);
+        }
+    }
+    &__text{
+        font-size: 22px;
+        line-height: 28.8px;
+        color: #1D252C;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        color: #5E6E89;
+        margin-top: 15px;
+        max-width: 304px;
+    }
+    &__name{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Poppins;
+        color: #1D252C;
+        line-height: 20.6px;
+        color: #7C8087;
+        letter-spacing: -0.9px;
+        margin-top: 15px;
+    }
+    &__img{
+        width: 84px;
+        height: 84px;
+        border-radius: 50%;
+    }
+}
